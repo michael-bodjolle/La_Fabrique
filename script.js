@@ -21,16 +21,26 @@
 
 $(function() {
     // Charger le contenu du header
-    $("#header").load("header.html", function() {
-      // Gestion du menu burger
+    $("#header").load("header.html", function(e) {
+      
+
+    // Gestion du menu burger
       $(".hamburger").on("click", function() {
+        
+        
         $(this).toggleClass("active");
         $(".nav-menu").toggleClass("active");
+        
       });
   
       $(".nav-link").on("click", function() {
+        
         $(".hamburger").removeClass("active");
         $(".nav-menu").removeClass("active");
+        
       });
+      
     });
   });
+
+  
