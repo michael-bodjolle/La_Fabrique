@@ -114,6 +114,16 @@ a {
 
 }
 
+
+#content{
+  background-color: #EEF2F9;
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  padding: 15vh;
+  
+}
+
 @media (max-width:768px) {
   .hamburger {
     display: block;
@@ -130,14 +140,14 @@ a {
   .nav-menu {
     position: fixed;
     left: -100%;
-    top: 55px;
+    top: 8vh;
     gap: 0.1;
     flex-direction: column;
     background-color: #262626ec;
     width: 100%;
     text-align: center;
     transition: 0.3s;
-    padding: 5vh;
+    padding: 7vh;
 
   }
 
