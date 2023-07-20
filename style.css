@@ -159,13 +159,32 @@ a {
   .nav-menu.active{
     left: 0;
   }
-}
-
-/* @media screen {
+  #content{
+    /* background-color: #EEF2F9; */
+    background: linear-gradient(to right, #fefefe 50%, #941010 50%);
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    padding: 15vh;
     
-} */
+  }
+  #boxtwo{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    margin-top: -30%;
+    margin-left: 45%;
+    width: 50vw;
+    height: 60vh;
+    padding: 15vh;
+  
+  }
+}
 
 .imgone{
   width: 50vw;
   
+  
 }
+
