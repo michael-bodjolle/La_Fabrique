@@ -116,7 +116,8 @@ a {
 
 
 #content{
-  background-color: #EEF2F9;
+  /* background-color: #EEF2F9; */
+  background: linear-gradient(to right, #fefefe 50%, #941010 50%);
   display: flex;
   justify-content: center;
   max-width: 100%;
@@ -163,3 +164,8 @@ a {
 /* @media screen {
     
 } */
+
+.imgone{
+  width: 50vw;
+  
+}
