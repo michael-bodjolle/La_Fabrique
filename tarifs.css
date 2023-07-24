@@ -1,0 +1,33 @@
+.containtarif{
+    background-image: url("images/la\ fab\ devanture\ A3.PNG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    padding: 35vw;
+    margin-top: 5vh;
+    background-position: center;
+   
+  
+  }
+  /* @media (max-width:768px) {
+
+    .containtarif{
+        background-image: url("images/la\ fab\ devanture\ A3.PNG");
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-width: 100vw;
+        max-height: 100vh;
+        padding: 30vh;
+        margin-top: 5vh;
+       
+      
+      }
+
+  } */
+
+  /* .imgtarif{
+
+    max-width: 100%;
+
+  } */
