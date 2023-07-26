@@ -2,15 +2,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Itim-regular', sans-serif;
+  font-family: 'Anton-Regular', sans-serif;
   scroll-behavior: smooth;
 }
 /* main {
   width: 100%;
 } */
 @font-face {
-  font-family: 'NomDeLaPolice';
-  src: url('Itim/Itim-Regular.ttf') format('truetype');
+  font-family: 'Anton-Regular';
+  src: url('Anton/Anton-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -67,6 +67,7 @@ a {
   color: rgb(194, 55, 55);
   transition: 0.7 ease;
   position: relative;
+  font-family: 'Anton-Regular';
 }
 
 /* .nav-link:hover {
@@ -75,7 +76,7 @@ a {
 
 /* ANIMATION-HOVER */
 .nav-link::before {
-  top: 2.5vh;
+  top: 3.5vh;
   content: '';
   position: absolute;
   width: 100%;
@@ -107,6 +108,25 @@ a {
   transition: all 0.3s ease-in-out;
   background-color: rgb(194, 55, 55);
 }
+#myImg{
+  
+  /* margin-left: 30vw;
+  margin-top: -20vh; */
+}
+
+.imgone{
+width: 55vh;
+margin-left: 30vw;
+
+}
+
+.txt1{
+  color: #fefefe;
+  
+  align-items: center;
+  text-align: center;
+  padding-left: vh;
+}
 
 /* #imghead{
     
@@ -126,7 +146,7 @@ a {
 
     /* IMGAGE_LOGO */
 #containlogo{
-  background-image: url("images/la fab logo couverture.PNG");
+  background-image: url("images/la fab internet6.png");
   background-size: cover;
   max-width: 100%;
   height: 100%;
@@ -140,11 +160,17 @@ a {
 /* MAIN-CONTENT */
 #content{
   /* background-color: #EEF2F9; */
-  background: linear-gradient(to right, #fefefe 50%, #941010 50%);
+  background: linear-gradient(to right, #941010 50%, #fefefe 50% );
   display: flex;
+  /* flex-direction: column;
+  align-items: center; */
+  display: flex;
+
   justify-content: center;
   max-width: 100%;
   padding: 15vh;
+  /* margin-top: 30vh;
+  margin-left: 30vw; */
   
 }
 
@@ -161,10 +187,7 @@ a {
 
 } */
 
-.imgone{
-  width: 50vw;
-  
-}
+
 
 
 #footer{
@@ -201,6 +224,7 @@ width: 100%;
   .nav-menu {
     position: fixed;
     left: -100%;
+    /* font-family: 'Anton-Regular'; */
     top: 8vh;
     gap: 0.1;
     flex-direction: column;
@@ -209,6 +233,7 @@ width: 100%;
     text-align: center;
     transition: 0.3s;
     padding: 7vh;
+    font-size: 10vW;
 
   }
 
@@ -224,7 +249,7 @@ width: 100%;
 
   #content{
     /* background-color: #EEF2F9; */
-    background: linear-gradient(to right, #fefefe 50%, #941010 50%);
+    background: linear-gradient(to right,  #941010 50%,#fefefe 50%);
     display: flex;
     justify-content: center;
     max-width: 100%;

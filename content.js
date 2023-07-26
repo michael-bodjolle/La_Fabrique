@@ -5,7 +5,7 @@ window.addEventListener('load', (e) => {
     const box = document.querySelector("#content");
     const img = document.createElement("img");
     
-    img.src = "images/VALID-HH-13.JPG";
+    img.src = "images/SHOW-28.JPG";
     img.classList.add("imgone");
     
     const src = document.getElementById("myImg");
