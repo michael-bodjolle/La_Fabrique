@@ -5,10 +5,6 @@
   font-family: 'Anton-Regular', sans-serif;
   /* scroll-behavior: smooth; */
 }
-body{
-  overflow-x: hidden;
-}
-
 /* main {
   width: 100%;
 } */
@@ -87,7 +83,7 @@ a {
   width: 100%;
   height: 2.2px;
   border-radius: 4px;
-  background-color: rgb(194, 55, 55);
+  background-color: rgb(236, 170, 170);
   bottom: 0;
   left: 0;
   transform-origin: right;
@@ -124,7 +120,7 @@ max-width: 50vh;
   color: #fefefe;
   align-items: center;
   text-align: center;
-  padding-left: vh;
+  /* padding-left: vh; */
 }
 
 /* IMGAGE_LOGO */
@@ -148,8 +144,8 @@ max-width: 50vh;
 	height: 100px;
 	/* margin-top: 125px; */
   position: absolute;
-  margin-top: -15vh;
- margin-left: 48.2vw;
+  margin-top: -13.7vh;
+  margin-left: 48.2vw;
  
  
   
@@ -315,6 +311,8 @@ max-width: 50vh;
   50%  { opacity: .5; }
   100% { opacity: 1; }
 }
+/* END ANIMATION SCROLL */
+
 
 /* MAIN-CONTENT */
 #content{
