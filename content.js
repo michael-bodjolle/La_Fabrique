@@ -2,6 +2,8 @@ window.addEventListener('load', (e) => {
 
     // e.preventDefault();
 
+    
+
     const box = document.querySelector("#content");
     const img = document.createElement("img");
     const imgTwo = document.createElement("img");
@@ -21,5 +23,9 @@ window.addEventListener('load', (e) => {
 
     const src2 = document.getElementById("myimgtwo");
     src2.appendChild(imgTwo);
+  
+
+   
 
 })
+
