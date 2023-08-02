@@ -347,16 +347,52 @@ max-width: 50vh;
 }
 
 /* PARTI SOURIR */
-.content2{
+/* #box_el{
   margin-top: -20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 50vh;
   justify-content: center;
-}
-#myimgtwo{
+  margin-bottom: 30%;
 
+} */
+
+
+
+.elem2{
+  
+}
+
+
+#myimgtwo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 20%;
 }
 .imgtwo{
-  max-width: 45vw;
+  max-width: 30%;
+}
+.elem1{
+  /* position: relative; */
+  background-color: #941010;
+  display: flex;
+  /* flex-direction: column; */
+  /* justify-content: center;
+  text-align: center; */
+  margin-top: -60vh;
+  margin-right: 8.6vw;
+  width: 30vw;
+  height: 40vh;
+  padding: 8vh;
+  z-index: -1;
+  
+
 }
 
 /* EN BAS */
@@ -415,6 +451,10 @@ width: 100%;
     left: 0;
   }
 
+  .mouse_scroll{
+    display: none;
+
+  }
   #content{
     /* background-color: #EEF2F9; */
     background: linear-gradient(to right,  #941010 50%,#fefefe 50%);

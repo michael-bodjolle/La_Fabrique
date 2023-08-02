@@ -16,27 +16,27 @@ window.addEventListener('load', (e) => {
     src.appendChild(img);
 
 
-
-
     imgTwo.src = "images/sourir.JPG";
     imgTwo.classList.add("imgtwo");
 
     const src2 = document.getElementById("myimgtwo");
     src2.appendChild(imgTwo);
-     
+
+
     
     // box1
     const elem1 = document.createElement("div");
     elem1.classList.add("elem1");
 
-    box_el.appendChild(elem1);
-    console.log(elem1);
+    src2.appendChild(elem1);
+    
+    
+    
     // box2
     const elem2 = document.createElement("div");
     elem2.classList.add("elem2");
-   
-
-    box_el.appendChild(elem2);
+     
+    src2.appendChild(elem2);
     console.log(elem2);
 
   
