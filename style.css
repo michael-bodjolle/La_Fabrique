@@ -234,7 +234,6 @@ max-width: 50vh;
   margin: 5px auto;
   background: rgb(194, 55, 55);
   position: relative;
-  
   height: 4px;
   width: 4px;
   border: 2px solid rgb(194, 55, 55);
@@ -446,7 +445,7 @@ p{
   display: flex;
   justify-content: center;
   max-width: 100%;
-  height: 120vh;
+  height: 90vh;
   padding: 15vh;
   margin-bottom: 5%;
   margin-top: -8%;
@@ -459,7 +458,7 @@ p{
 }
 .imgthree{
   max-width: 100%;
-  margin-top: -70vh;
+  margin-top: -60vh;
   }
 
 
@@ -561,6 +560,8 @@ width: 100%;
   padding:0 50px;
   height: 20vh;
 }
+
+/* RESPONSIVE */
 
 @media (max-width:1111px) {
   .hamburger {
