@@ -20,6 +20,8 @@
 //     )
 
 $(function() {
+  
+  
     // Charger le contenu du header
     $("#header").load("header.html", function(e) {
     $("#footer").load("footer.html");
