@@ -335,9 +335,9 @@ max-width: 50vh;
   /* text-align: center; */
   margin-top: -74vh;
   margin-left: 8.6vw;
-  width: 30vw;
+  width: 35vw;
   height: 40vh;
-  padding: 8vh;
+  padding: 2vh;
   margin-bottom: 100vh;
 }
 
@@ -346,9 +346,9 @@ max-width: 50vh;
   font-size: 1.8em;
   color: #941010;
 }
-.rich2{
+/* .rich2{
   text-align: center;
-}
+} */
 p{
  font-weight: 2px; 
 }
@@ -435,7 +435,7 @@ p{
   margin-left: 8.6vw;
   width: 30vw;
   height: 40vh;
-  padding: 8vh;
+  padding: 10vh;
  
 }
  /* FIN CONTENT SOURIR */

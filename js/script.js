@@ -23,10 +23,10 @@ $(function() {
   
   
     // Charger le contenu du header
-    $("#header").load("header.html", function(e) {
-    $("#footer").load("footer.html");
+    $("#header").load("./header-footer/header.html", function(e) {
+    $("#footer").load("./header-footer/footer.html");
       
-
+    
     // Gestion du menu burger
       $(".hamburger").on("click", function() {
         

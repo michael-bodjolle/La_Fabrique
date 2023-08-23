@@ -1,0 +1,87 @@
+/* .containtarif{
+    background-image: url("images/la\ fab\ devanture\ A3.PNG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    padding: 35vw;
+    margin-top: 5vh;
+    background-position: center;
+   
+  
+  } */
+  * {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: 'Anton-Regular', sans-serif;
+    /* scroll-behavior: smooth; */
+    
+  }
+
+  body{
+    background-color:#941010 ;
+  }
+
+  .tar{
+    margin-top: 15vh;
+    color: white;
+    text-align: center;
+    /* letter-spacing: 2px; */
+    font-size: 7vh;
+  }
+  .containtarif{
+    margin-top: -5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 100%;
+    padding: 20vh;
+    box-sizing: border-box;
+    
+  }
+
+  .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: white;
+    width: 25%;
+    height: 60vh;
+    padding: 30px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 5px;
+    gap: 10px;
+    text-align: center;
+
+    }
+
+    .price{
+    font-size: 3em;
+    }
+
+    .prem{
+
+    color: goldenrod;
+    text-shadow: 0px 1px 1px black;
+    letter-spacing: 1px;
+   
+    }
+
+    .po{
+      font-size: 0.8em;
+    }
+
+
+    
+    
+
+    @media (max-width:780px) {
+
+      
+    }
+
+
